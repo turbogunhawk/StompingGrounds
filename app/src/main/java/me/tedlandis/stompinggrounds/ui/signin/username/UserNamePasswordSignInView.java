@@ -55,6 +55,21 @@ public class UserNamePasswordSignInView
         loginButton.setEnabled(enabled);
     }
 
+    @Override
+    public void showLoading(boolean show) {
+
+    }
+
+    @Override
+    public void onLoginSuccess() {
+
+    }
+
+    @Override
+    public void showError(String message) {
+
+    }
+
     public interface ActionListener {
         void onUsernameTextChanged(String username);
 
