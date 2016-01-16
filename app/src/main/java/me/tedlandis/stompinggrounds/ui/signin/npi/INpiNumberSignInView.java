@@ -1,4 +1,4 @@
-package me.tedlandis.stompinggrounds.ui.signin;
+package me.tedlandis.stompinggrounds.ui.signin.npi;
 
 import me.tedlandis.stompinggrounds.ui.base.MvpView;
 

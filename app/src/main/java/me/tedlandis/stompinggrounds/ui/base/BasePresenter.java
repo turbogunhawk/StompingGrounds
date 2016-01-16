@@ -1,8 +1,5 @@
 package me.tedlandis.stompinggrounds.ui.base;
 
-/**
- * WRITE SOMETHING HERE!!!
- */
 public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
     private V view;
 

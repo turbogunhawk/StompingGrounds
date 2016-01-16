@@ -1,4 +1,4 @@
-package me.tedlandis.stompinggrounds.ui.signin;
+package me.tedlandis.stompinggrounds.ui.signin.username;
 
 import android.text.Editable;
 import android.view.View;
@@ -12,7 +12,7 @@ import me.tedlandis.stompinggrounds.util.TextChangedAdapter;
 
 public class UserNamePasswordSignInView
         extends BaseMvpView
-        implements IUserNamePasswordSignInView{
+        implements IUserNamePasswordSignInView {
 
     @Bind(R.id.user_name_edit_text)
     EditText userNameEditText;
