@@ -6,6 +6,6 @@ import rx.Observable;
 
 public interface LoginService {
     @POST("/login")
-    Observable<Object> login(@Field("username") String username,
+    Observable<Boolean> login(@Field("username") String username,
                              @Field("password") String password);
 }
